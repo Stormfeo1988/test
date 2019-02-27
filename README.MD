@@ -22,4 +22,3 @@ npm run webdriver
 ```
 npm run test
 ```
-Test
