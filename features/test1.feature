@@ -27,4 +27,3 @@ Feature: test-feature
 #    And User navigates to the "Vendor" page with url "https://thinkmobiles.com/profile/vendor/"
 #    And User waits 3000 seconds
 #    Then "Vendor" "#urlTabsWrap .changeUrlBtn.active" is displayed
-#
