@@ -8,13 +8,17 @@ Feature: test-feature
 
   Scenario: 1: Check Log in Function Personal
     When User clicks "enter e-mail field" ".active [name='email']"
+    And User waits 3000 seconds
     And User enters "qacoursessfyou@gmail.com" in "enter e-mail field" ".active [name='email']"
+    And User waits 4000 seconds
     And User clicks "enter password field" ".active [name='password']"
+    And User waits 4000 seconds
     And User enters "#Ghbdtnrehcb2019*" in "enter password field" ".active [name='password']"
+    And User waits 4000 seconds
     And User clicks "Log In Button" ".active div.btn-group.center button"
-    And User waits 3000 seconds
-    And User navigates to the "Account" page with url "https://thinkmobiles.com/profile/account"
-    And User waits 3000 seconds
+    And User waits 4000 seconds
+    And User navigates to the "Account" page with url "https://thinkmobiles.com/profile/account/"
+    And User waits 4000 seconds
     Then "Account" "#urlTabsWrap .changeUrlBtn.active" is displayed
 #
 #  Scenario: 2: Check Log in Function Vendor
